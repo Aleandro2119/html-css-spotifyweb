@@ -43,6 +43,20 @@ header{
     position: relative;
 }
 
+.btn{
+    color: white;
+    background-color: #080B12;
+    border: 1px solid white;
+    padding: 15px 25px;
+    border-radius: 20px;
+    font-size: 12px;
+    position: absolute;
+    top: 15px;
+    right: 0;
+    cursor: pointer;
+
+}
+
 /*SIDEBAR*/
 .sidebar{
     background-color: black;
