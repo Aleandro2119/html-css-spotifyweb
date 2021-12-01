@@ -22,3 +22,42 @@ body{
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    height: calc(100vh - 80px);
+    display: flex;
+}
+
+/*HEADER*/
+header{
+    background-color: #080B12;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    position: relative;
+}
+
+/*SIDEBAR*/
+.sidebar{
+    background-color: black;
+    flex-basis: 220px;
+    flex-shrink: 0;
+}
+
+/*MAIN*/
+main{
+    background-color: #141922;
+    flex-grow: 1;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #282828;
+    height: 80px;
+}
