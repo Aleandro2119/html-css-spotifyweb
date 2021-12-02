@@ -206,6 +206,11 @@ li{
     margin-left: 15px;
 }
 
+/*Third section playlist*/
+.image-circle{
+    border-radius: 50%;
+}
+
 /*FOOTER*/
 footer{
     background-color: #282828;
