@@ -7,7 +7,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    color:white;
+    color: white;
 }
 
 
@@ -40,7 +40,7 @@ img{
 
 /*HEADER*/
 header{
-    background-color: #080B12;
+    background-color: rgba(8,11,18, 0.2);
     height: 80px;
     position: fixed;
     top: 0;
@@ -60,6 +60,11 @@ header{
     right: 0;
     cursor: pointer;
 
+}
+
+.btn:hover{
+    transition: 1s;
+    transform: scale(2);
 }
 
 /*SIDEBAR*/
@@ -103,6 +108,7 @@ header{
     padding-left: 20px;
     margin-top: 15px;
     font-size: 12px;
+    color: #9E9D9E;
 }
 
 .sidebar p{
@@ -111,6 +117,7 @@ header{
     padding-left: 20px;
     margin-bottom: 10px;
     margin-top: 100px;
+    cursor: pointer;
 }
 
 .sidebar hr{
@@ -124,6 +131,7 @@ header{
     font-weight: bold;
     padding-left: 20px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .sidebar .profile{
@@ -133,6 +141,22 @@ header{
     vertical-align: middle;
     margin-top: 10px;
     margin-bottom: 10px;   
+}
+
+.sidebar p:hover{
+    color: white;
+}
+
+.sidebar a:hover{
+    color: white;
+}
+
+.sidebar li:hover{
+    color: white;
+}
+
+.sidebar .fa-plus:hover{
+    background-color: white;
 }
 
 /*MAIN*/
@@ -161,6 +185,9 @@ main{
       font-size: 14px;
   }
 
+  .main-navbar a:hover{
+    color: white;
+}
 
   /* First section playlist*/
 
@@ -248,6 +275,10 @@ footer{
     color: #9E9D9E;
 }
 
+.colums .far:hover{
+    color: white;
+}
+
 /*Second colum footer*/
 .colums-center{
     display: flex;
@@ -280,6 +311,7 @@ footer{
     margin-right: 10px;
     position: relative;
 }
+
 
 
 /*MEDIA QUERY*/
