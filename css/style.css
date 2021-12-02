@@ -10,6 +10,11 @@ body{
     color:white;
 }
 
+
+img{
+    max-width: 100%;
+}
+
 .clearfix{
     display: table;
     clear: both;
@@ -156,8 +161,63 @@ main{
       font-size: 14px;
   }
 
+
+  /* First section playlist*/
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+section h2{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.wrap-playlist img{
+    margin-top: 25px;
+}
+
+.wrap-playlist h4{
+    margin-top: 10px;
+}
+
+.wrap-playlist .subtitle{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #9E9D9E;
+}
+
+.gallery li{
+    flex-basis: 50%;
+    padding: 0 10px;
+}
+
 /*FOOTER*/
 footer{
     background-color: #282828;
     height: 80px;
 }
+
+
+
+/*MEDIA QUERY*/
+@media screen and (min-width:576px) {
+    
+}
+
+@media screen and (min-width:768px) {
+    
+}
+
+@media screen and (min-width: 992px){
+    .gallery li{
+        flex-basis: calc(100% / 6);
+    }
+}
+  
